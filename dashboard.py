@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
+import streamlit as st
+
+st.write("FILES IN APP FOLDER:", os.listdir())
 
 required_files = [
     "scm_order_lines.csv",
@@ -20,16 +23,16 @@ st.set_page_config(layout="wide")
 
 st.title("📦 Supply Chain Risk Dashboard")
 
-orders = pd.read_csv("scm_order_lines.csv",
+orders = pd.read_csv("SCM_Dashboard/scm_order_lines.csv",
                      parse_dates=["order_date","ship_date","promised_delivery_date"])
 
-inv = pd.read_csv("scm_inventory_positions.csv",
+inv = pd.read_csv("SCM_Dashboard/scm_inventory_positions.csv",
                   parse_dates=["date","next_po_eta"])
 
-forecast = pd.read_csv("scm_forecast.csv",
+forecast = pd.read_csv("SCM_Dashboard/scm_forecast.csv",
                        parse_dates=["date"])
 
-po = pd.read_csv("scm_po_receipts.csv",
+po = pd.read_csv("SCM_Dashboard/scm_po_receipts.csv",
                  parse_dates=["eta_date"])
 
 # ---------------- KPI SECTION ----------------
