@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 import streamlit as st
 
-st.write("FILES IN APP FOLDER:", os.listdir())
+# st.write("FILES IN APP FOLDER:", os.listdir())
 
 required_files = [
     "scm_order_lines.csv",
