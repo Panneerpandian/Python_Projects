@@ -1,0 +1,19 @@
+,sku,warehouse,earliest_stockout,next_po_eta,min_dos,recommendation
+0,P001,BLR_WH,2025-03-08,2025-03-21,1.2857142857142858,Pull-in PO or rebalance
+1,P001,BOM_WH,2025-03-11,2025-03-21,0.0,Emergency transfer or air freight
+2,P001,DEL_WH,2025-03-09,2025-03-21,2.6,Pull-in PO or rebalance
+3,P002,BLR_WH,2025-03-05,2025-03-15,0.5,Emergency transfer or air freight
+4,P002,BOM_WH,2025-03-02,2025-03-15,1.1428571428571428,Pull-in PO or rebalance
+5,P002,DEL_WH,2025-03-06,2025-03-15,1.2,Pull-in PO or rebalance
+6,P003,BLR_WH,2025-04-07,2025-04-16,0.0,Emergency transfer or air freight
+7,P003,BOM_WH,2025-03-03,2025-03-13,0.0,Emergency transfer or air freight
+8,P003,DEL_WH,2025-03-19,2025-03-27,0.625,Emergency transfer or air freight
+9,P004,BLR_WH,2025-03-01,2025-04-02,1.8,Pull-in PO or rebalance
+10,P004,BOM_WH,2025-03-03,2025-04-02,1.6666666666666667,Pull-in PO or rebalance
+11,P004,DEL_WH,2025-03-15,2025-04-02,1.75,Pull-in PO or rebalance
+12,P007,BLR_WH,2025-03-03,2025-04-05,0.3333333333333333,Emergency transfer or air freight
+13,P007,BOM_WH,2025-03-02,2025-04-05,1.6,Pull-in PO or rebalance
+14,P007,DEL_WH,2025-03-01,2025-04-05,0.8,Emergency transfer or air freight
+15,P008,BLR_WH,2025-03-02,2025-03-07,0.0,Emergency transfer or air freight
+16,P008,BOM_WH,2025-03-10,2025-03-16,2.1666666666666665,Pull-in PO or rebalance
+17,P008,DEL_WH,2025-04-07,2025-04-17,2.0,Pull-in PO or rebalance
