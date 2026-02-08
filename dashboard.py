@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 import os
 import streamlit as st
 
-# st.write("FILES IN APP FOLDER:", os.listdir())
+st.write("FILES IN APP FOLDER:", os.listdir())
 
-# required_files = [
-#     "scm_order_lines.csv",
-#     "scm_inventory_positions.csv",
-#     "scm_forecast.csv",
-#     "scm_po_receipts.csv"
-# ]
+required_files = [
+    "scm_order_lines.csv",
+    "scm_inventory_positions.csv",
+    "scm_forecast.csv",
+    "scm_po_receipts.csv"
+]
 
 for file in required_files:
     if not os.path.exists(file):
